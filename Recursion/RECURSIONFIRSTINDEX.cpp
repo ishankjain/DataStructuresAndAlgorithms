@@ -1,12 +1,11 @@
-
 #include <iostream>
 using namespace std;
-int linearsearch(int array[], int be, int N, int tobesearched) {
+int linearsearch(int array[], int be, int N, int toBesearched) {
     if (be > N) {
         return -1;
     }
-    int aheadindex = linearsearch(array, be + 1, N, tobesearched);
-    if (array[be] == tobesearched) return be;
+    int aheadindex = linearsearch(array, be + 1, N, toBesearched);
+    if (array[be] == toBesearched) return be;
     return aheadindex;
 }
 int main() {
