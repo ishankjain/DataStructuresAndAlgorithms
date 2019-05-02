@@ -5,7 +5,7 @@ int main() {
     int N;
     cin >> N;
     //print the first line.
-    cout << "*";
+    cout << "?";
     int middle = (N + 1) / 2;
     int nspaces = N - (middle + 1);
     for (int i = 0; i < nspaces; i++) {
