@@ -11,7 +11,7 @@ public:
 };
 class Linkedlist {
 public:
-    Node * createlinkedlist(int numofnodes) {
+    Node * createlinkedlist(int numofnodes) { // Returns pointer to a Node.
         Node * head = NULL;
         Node * tail = NULL;
         int ctr = 0;
